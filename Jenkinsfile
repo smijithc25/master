@@ -10,6 +10,6 @@ pipeline {
         stage('Hello PowerShell') {
             steps 
             {
-                powershell 'Write-Output –Counting from 1 to 9 (in seconds)'
+                powershell 'Write-Output –Counting from 1 to 9 (in seconds):'
             }
         }}}
