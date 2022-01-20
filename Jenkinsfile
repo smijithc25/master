@@ -6,9 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-        }
-    
- 
+        } 
         stage('Hello PowerShell') {
             steps 
             {
