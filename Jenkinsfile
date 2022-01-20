@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo '$GIT_BRANCH'
+                echo "$GIT_BRANCH"
             }
         } 
         stage('HelloPowerShell') {
