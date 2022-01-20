@@ -7,9 +7,9 @@ pipeline {
                 echo 'Hello World'
             }
         } 
-        stage('Hello PowerShell') {
+        stage('HelloPowerShell') {
             steps 
             {
-                powershell 'Write-Output –Counting from 1 to 9 (in seconds):'
+                powershell 'Write-Output "Counting from 1 to 9 (in seconds):"'
             }
         }}}
